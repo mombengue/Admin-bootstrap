@@ -1,0 +1,11 @@
+#sidebar{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+}
+
+main{
+    margin-left: 20%;
+}
