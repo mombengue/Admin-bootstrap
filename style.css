@@ -1,11 +1,26 @@
-#sidebar{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 20%;
-    height: 100vh;
+#_sidebar{
+    width: 200px;
+    z-index: 10;
 }
 
 main{
-    margin-left: 20%;
+    margin-left: 200px;
+}
+#_closeNavigation{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #_sidebar{
+        display: none;
+    }
+    main{
+        margin-left: 0px;
+    }
+    #_closeNavigation{
+        display: block;
+    }
+    #_showNavigation{
+        display: none;
+    }
 }
